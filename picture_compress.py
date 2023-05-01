@@ -6,7 +6,7 @@ import math
 def rand_cluster(K):
 	clusters = []
 	for i in range(K):
-		cluster_pos = [randint(0,255), randint(0,255), randint(0,255)] #random position 
+		cluster_pos = [randint(0,255), randint(0,255), randint(0,255)] #random cluster position 
 		clusters.append(cluster_pos)
 	return clusters
 
@@ -18,13 +18,15 @@ def calc_distance(p1, p2):
 	return math.sqrt(distance)
 
 def main():
-	image = plt.imread("a.jpg") # (656, 561, 3)
+	image = plt.imread("sunflower.jpg") # (656, 561, 3)
 
 	height = image.shape[0] #rows 
 	width = image.shape[1]	#columns
 
 	image = image.reshape(height*width, 3) # -> pixel pos 
-	K = 10
+
+	#change K here
+	K = 4
 	clusters = rand_cluster(K) # -> postion of each cluster
 	labels = []
 	
