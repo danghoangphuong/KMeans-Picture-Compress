@@ -1,4 +1,4 @@
-A program, which compresses some simple images.
+A program using KMeans Algorithms, which compresses some simple images.
 You can change K in the code in order to improve quality of new image 
 
 
