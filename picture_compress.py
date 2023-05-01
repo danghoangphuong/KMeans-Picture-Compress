@@ -26,7 +26,7 @@ def main():
 	image = image.reshape(height*width, 3) # -> pixel pos 
 
 	#change K here
-	K = 4
+	K = randint(1,16)
 	clusters = rand_cluster(K) # -> postion of each cluster
 	labels = []
 	
