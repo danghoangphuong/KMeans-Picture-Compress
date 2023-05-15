@@ -1,6 +1,9 @@
 A program using KMeans Algorithms, which compresses some simple images.
 You can change K in the code in order to improve quality of new image 
 
+![image](https://github.com/danghoangphuong/KMeans-Picture-Compress/assets/131732634/b83246e0-a588-4e36-9d46-c6e0e0699018)
+
+
 ![image](https://user-images.githubusercontent.com/131732634/235829774-345e36a4-561f-4ad9-a66a-304bd950aa54.png)
 
 
